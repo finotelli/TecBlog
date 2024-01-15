@@ -8,9 +8,24 @@ body {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
 }
+#area-principal {
+  width: 920px;
+  margin: 0 auto;
+  color: white;
+}
+#postagens,
+#lateral {
+  background: orangered;
+}
+#postagens {
+  width: 660px;
+  margin: 0 auto;
+}
 
-/* layout
-*/
+#lateral {
+  width: 240px;
+  float: right;
+}
 #cabecalho {
   background-color: #f7b600;
   padding: 15px;
