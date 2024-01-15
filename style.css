@@ -19,7 +19,7 @@ body {
 }
 #postagens {
   width: 660px;
-  margin: 0 auto;
+  float: left;
 }
 
 #lateral {
