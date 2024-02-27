@@ -11,24 +11,34 @@ body {
 #area-principal {
   width: 920px;
   margin: 0 auto;
-  color: white;
+  color: rgb(255, 255, 255);
 }
-#postagens,
-#lateral {
-  background: orangered;
-}
+
 #postagens {
   width: 660px;
   float: left;
+  margin-top: 25px; /* Adiciona espaço acima do conteúdo */
 }
-
 #lateral {
   width: 240px;
   float: right;
+  margin-top: 25px; /* Adiciona espaço acima do conteúdo */
+}
+.postagem {
+  padding: 20px;
+  margin-bottom: 20px;
+  background: rgb(255, 255, 255);
+}
+
+#rodape {
+  clear: both;
+  text-align: center;
+  padding: 15px;
+  background: #ccc;
 }
 #cabecalho {
   background-color: #f7b600;
-  padding: 15px;
+  padding: 10px;
   text-align: center;
 }
 #logo,
